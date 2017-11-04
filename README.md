@@ -1,5 +1,18 @@
 # iOS-image-resizing
 
+## Description
+Resizing images and icons for iOS apps development will be simplified by **iOS-image-resizing** script.
+
+## Table of Contents
+
+## Installation
+
+## Usage
+
+## Credits
+
+## License
+
 # This is an <h1> tag
 ## This is an <h2> tag
 ###### This is an <h6> tag
