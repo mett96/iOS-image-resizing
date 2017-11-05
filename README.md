@@ -1,11 +1,28 @@
 # iOS-image-resizing
 
 ## Description
-Resizing images and icons for iOS apps development will be simplified by **iOS-image-resizing** script.
+Resizing images and icons for iOS apps development will be simplified by the scripts inlcuded in iOS-image-resizing.
 \
-test
+**Create-iOS-Icon** script, given a 1024x1024 .png icon, generate all necessary icon sizes.
+\
+Also **create-iOS-Assest** script, given a icon at least 100x100, creates all necessary images sizes 
 
-## Table of Contents
+## Contents
+
+### Create-iOS-Icon
+Script receives in input a image .png at least 1024x1024, it must be squared. 
+\
+As indicated by Apple in [Human Interface Guidelines](https://developer.apple.com/ios/human-interface-guidelines/icons-and-images/app-icon/), script creates all necessary size icon:
+* App Icon Sizes
+
+|Device or context.        |Icon size |
+|:---------------------|:--------|
+|iPhone|180px × 180px (60pt × 60pt @3x)|
+||120px × 120px (60pt × 60pt @2x)|
+|iPad Pro|167px × 167px (83.5pt × 83.5pt @2x)|
+|iPad, iPad mini|152px × 152px (76pt × 76pt @2x)|
+|App Store|1024px × 1024px (1024pt × 1024pt @1x)|
+
 
 ## Installation
 
