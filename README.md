@@ -12,8 +12,8 @@ Also **create-iOS-Assest** script, given a icon at least 100x100, creates all ne
 ### Create-iOS-Icon
 Script receives in input a image .png at least 1024x1024, it must be squared. 
 \
-As indicated by Apple in [Human Interface Guidelines](https://developer.apple.com/ios/human-interface-guidelines/icons-and-images/app-icon/), script creates all necessary size icon:
-* App Icon Sizes
+As indicated by Apple in [Human Interface Guidelines - App Icon](https://developer.apple.com/ios/human-interface-guidelines/icons-and-images/app-icon/), script creates all necessary size icon:
+* **_App Icon Sizes_**
 
 |Device or context.        |Icon size |
 |:---------------------|:--------|
@@ -22,6 +22,26 @@ As indicated by Apple in [Human Interface Guidelines](https://developer.apple.co
 |iPad Pro|167px × 167px (83.5pt × 83.5pt @2x)|
 |iPad, iPad mini|152px × 152px (76pt × 76pt @2x)|
 |App Store|1024px × 1024px (1024pt × 1024pt @1x)|
+
+* **_Spotlight, Settings, and Notification Icons_**
+
+|Device|	Spotlight icon size|
+|:---|:---|
+|iPhone|	120px × 120px (40pt × 40pt @3x)|
+||80px × 80px (40pt × 40pt @2x)|
+|iPad Pro, iPad, iPad mini	|80px × 80px (40pt × 40pt @2x)|
+
+|Device|	Settings icon size|
+|:---|:---|
+|iPhone|	87px × 87px (29pt × 29pt @3x)|
+||58px × 58px (29pt × 29pt @2x)|
+|iPad Pro, iPad, iPad mini	|58px × 58px (29pt × 29pt @2x)|
+
+|Device|	Notification icon size|
+|:---|:---|
+|iPhone|	60px × 60px (20pt × 20pt @3x)|
+||40px × 40px (20pt × 20pt @2x)|
+|iPad Pro, iPad, iPad mini|	40px × 40px (20pt × 20pt @2x)|
 
 
 ## Installation
