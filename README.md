@@ -43,68 +43,29 @@ As indicated by Apple in [Human Interface Guidelines - App Icon](https://develop
 ||40px × 40px (20pt × 20pt @2x)|
 |iPad Pro, iPad, iPad mini|	40px × 40px (20pt × 20pt @2x)|
 
+### Create-iOS-Assest
+Script receives in input a image .png at least 100x100, it must be squared. 
+\
+As indicated by Apple in [Human Interface Guidelines - Custom Icon](https://developer.apple.com/ios/human-interface-guidelines/icons-and-images/custom-icons/), script creates all necessary size icon:
+
+* **_Navigation Bar and Toolbar Icon Size_**
+
+
+|Target sizes|	Maximum sizes|
+|:---|:---|
+|75px × 75px (25pt × 25pt @3x)|	83px × 83px (27.67pt × 27.67pt @3x)|
+|50px × 50px (25pt × 25pt @2x)|	56px × 56px (28pt × 28pt @2x)|
 
 ## Installation
 
+* Save scripts to:
+ * **Win**: C:\Program Files\Adobe\Adobe Utilities\ExtendScript Toolkit CS5\SDK
+ * **Mac**: /Applications/Utilities/Adobe Utilities/ExtendScript Toolkit CS5/SDK
+* Restart Photoshop
+
 ## Usage
 
-## Credits
-
-## License
-
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
-
-*This text will be italic*
-_This will also be italic_
-
-**This text will be bold**
-__This will also be bold__
-
-_You **can** combine them_
-
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-  
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
-   
- ![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-
-http://github.com - automatic!
-[GitHub](http://github.com)
-
-
-As Kanye West said:
-
-> We're living the future so
-> the present is our past.
-
-I think you should use an
-`<addr>` element here instead.
-
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
-
-
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-~~this~~
-
-> test
-> - test2
-
-
-
+* Open Photoshop
+* Select File > Scripts > Create-iOS-Icons or Create-iOS-Assest
+* Select the prepares Image (1024x1024 or 100x100)
+* The different resized icons will get saved to the same folder that original image is in
